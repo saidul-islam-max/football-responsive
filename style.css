@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
    margin: 0;
    padding: 0;
@@ -37,14 +38,16 @@ body{
     margin-bottom:25px;
     font-weight: 700;
 }
-.homepage-btn{
+.button{
     width: 168px;
     height: 44px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: #E02C6D;
+    color: white;
+    border: none;
 }
-.homepage-btn i{
+.button i{
     width: 24px;
     height: 24px;
 }
@@ -65,6 +68,7 @@ body{
     background-color: #ffffff;
     padding-top: 70px;
     padding-bottom: 100px;
+    
 }
 .team{
     margin-left: 180px;
@@ -91,4 +95,43 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #6C6C6C;
+}
+
+/* ------------------
+  copa-2021 match 
+--------------------*/
+#copa-2021{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.copa-america{
+    margin: 0px 156px 0px 180px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+}
+.copa-america-history{
+    width: 42%;
+    padding-right: 8%;
+
+}
+.copa-america-history h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.copa-america-history p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-right:100px ;
+}
+
+.copa-america-img{
+    width:50%;
+    
+}
+.copa-america-img img{
+    width: 100%;
+    height: 100%;
 }
